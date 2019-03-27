@@ -13,6 +13,11 @@ echo "***********************************"
 sudo apt-get install -y vlc
 
 echo "***********************************"  
+echo "Installing Terminator"    
+echo "***********************************"  
+sudo apt-get install -y terminator
+
+echo "***********************************"  
 echo "Installing Ansible"    
 echo "***********************************"  
 sudo apt-add-repository ppa:ansible/ansible
