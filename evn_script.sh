@@ -8,6 +8,11 @@ sudo apt-get -y upgrade
 sudo apt-get install software-properties-common
 
 echo "***********************************"  
+echo "Installing Git"    
+echo "***********************************"  
+sudo apt install -y git
+
+echo "***********************************"  
 echo "Installing vlc"    
 echo "***********************************"  
 sudo apt-get install -y vlc
