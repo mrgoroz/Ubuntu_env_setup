@@ -53,9 +53,9 @@ sudo apt-get install -y terminator
 echo "***********************************"  
 echo "Installing Ansible"    
 echo "***********************************"  
-sudo apt-add-repository ppa:ansible/ansible
+echo -en "\n\n" | sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
-sudo apt-get install ansible -y
+echo -en "\n\n" | sudo apt-get install ansible -y
 
 echo "***********************************"  
 echo "Installing chrome browser"    
