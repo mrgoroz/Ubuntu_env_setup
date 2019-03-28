@@ -37,6 +37,15 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
 echo "***********************************"  
+echo "Adding current user to Docker group"    
+echo "***********************************"
+sudo groupadd docker
+sudo usermod -aG docker $USER
+su -
+docker ps
+
+
+echo "***********************************"  
 echo "Installing Terminator"    
 echo "***********************************"  
 sudo apt-get install -y terminator
